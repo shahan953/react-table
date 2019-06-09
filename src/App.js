@@ -162,6 +162,8 @@ class App extends React.Component {
           <Table
             columns={columns}
             dataSource={data}
+            size="middle"
+            bordered
           />
         </div>
       </div>
